@@ -8,10 +8,6 @@ import tux from './images/tux.jpg'
 class App extends React.Component {
     constructor( props ) {
         super( props )
-
-        this.state = {
-            window_height : window.innerHeight 
-        }
     }
 
     render() {
@@ -21,7 +17,7 @@ class App extends React.Component {
                     <div className="text-center">
                         <img src={ tux } className="tux" style={ { width : '300px' } } />
                     </div>
-                    <div style={ { position : 'relative', height : this.state.window_height } }>
+                    <div style={ { position : 'relative', height : window.innerHeight } }>
                         <div className="grad">
                             <div className="text-center">
                                 <h1 className="text-center">Linux Nigeria</h1>
@@ -31,6 +27,15 @@ class App extends React.Component {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="footer">
+                    <a href="https://join.slack.com/t/linuxlagos/shared_invite/enQtNDI0Nzg0NTAzMzgyLTIwMTAzNzA3Y2JjYzQzOTMzZDQ5Njk1MWRhZDkxOTNlYWNlYjVhYjQ0OGUxYTkxZGY0Njg2ZTQ2MTFhODllMTg">
+                        <span className="icon-slack"></span>
+                    </a>
+
+                    <a href="https://twitter.com/linuxlagos">
+                        <span className="icon-twitter"></span>
+                    </a>
                 </div>
             </div>
         )
