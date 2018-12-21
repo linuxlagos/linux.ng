@@ -13,9 +13,13 @@
     "@babel/preset-env": "^7.2.3",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
+    "css-loader": "^2.0.1",
+    "file-loader": "^3.0.1",
     "path": "^0.12.7",
     "react": "^16.7.0",
+    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.7.0",
+    "style-loader": "^0.23.1",
     "webpack": "^4.28.1"
   },
   "devDependencies": {
