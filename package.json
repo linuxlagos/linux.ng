@@ -1,0 +1,24 @@
+{
+  "name": "linux.ng",
+  "version": "1.0.0",
+  "description": "Linux NG Official Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James John <me@donjajo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "path": "^0.12.7",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "webpack": "^4.28.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
+  }
+}
